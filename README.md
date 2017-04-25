@@ -1,6 +1,6 @@
 # npmtest-xmlhttprequest
 
-#### basic test coverage for  xmlhttprequest (v1.8.0)  [![npm package](https://img.shields.io/npm/v/npmtest-xmlhttprequest.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xmlhttprequest) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xmlhttprequest.svg)](https://travis-ci.org/npmtest/node-npmtest-xmlhttprequest)
+#### basic test coverage for  [xmlhttprequest (v1.8.0)](https://github.com/driverdan/node-XMLHttpRequest)  [![npm package](https://img.shields.io/npm/v/npmtest-xmlhttprequest.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xmlhttprequest) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xmlhttprequest.svg)](https://travis-ci.org/npmtest/node-npmtest-xmlhttprequest)
 
 #### XMLHttpRequest for Node
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xmlhttprequest/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xmlhttprequest/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xmlhttprequest/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xmlhttprequest/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xmlhttprequest/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xmlhttprequest/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xmlhttprequest/build/coverage.html/index.html)
 
@@ -35,31 +35,49 @@
 ```json
 
 {
-    "name": "xmlhttprequest",
-    "description": "XMLHttpRequest for Node",
-    "version": "1.8.0",
     "author": {
         "name": "Dan DeFelippi",
         "url": "http://driverdan.com"
     },
+    "bugs": {
+        "url": "http://github.com/driverdan/node-XMLHttpRequest/issues"
+    },
+    "dependencies": {},
+    "description": "XMLHttpRequest for Node",
+    "devDependencies": {},
+    "directories": {
+        "lib": "./lib",
+        "example": "./example"
+    },
+    "dist": {
+        "shasum": "67fe075c5c24fef39f9d65f5f7b7fe75171968fc",
+        "tarball": "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "gitHead": "86ff70effb6dd529b34650242b9e3b1f0b8b6e86",
+    "homepage": "https://github.com/driverdan/node-XMLHttpRequest",
     "keywords": [
         "xhr",
         "ajax"
     ],
     "license": "MIT",
+    "main": "./lib/XMLHttpRequest.js",
+    "maintainers": [
+        {
+            "name": "driverdan"
+        }
+    ],
+    "name": "xmlhttprequest",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/driverdan/node-XMLHttpRequest.git"
     },
-    "bugs": "http://github.com/driverdan/node-XMLHttpRequest/issues",
-    "engines": {
-        "node": ">=0.4.0"
-    },
-    "directories": {
-        "lib": "./lib",
-        "example": "./example"
-    },
-    "main": "./lib/XMLHttpRequest.js"
+    "scripts": {},
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
